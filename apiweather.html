@@ -1,0 +1,39 @@
+<!--Oconti01 - WDFMA 2018
+Task2 - Create a Weather Application based on API Data -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>WDFMA-T2 - Oconti01</title>
+  	<meta charset="UTF-8">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="apiweather.js" type="text/javascript"></script>
+  	<link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+  	<header>
+  		<h1>Live UK Weather Data</h1>
+  	</header>
+
+  <div id="selected">
+    <select id="country">
+      <option>--Select Country--</option>
+      <option>England</option>
+      <option>Scotland</option>
+      <option>Wales</option>
+      <option>Northern Ireland</option>
+    </select>
+
+    <select id="city">
+      <option>--Select Country First--</option>
+    </select>
+  </div>
+
+  <div id="weatherInfo"></div>
+  <div id="info"></div>
+
+  <footer>
+  </footer>
+  </body>
+</html>

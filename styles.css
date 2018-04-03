@@ -1,0 +1,99 @@
+/*Oconti01 - WDFMA 2018
+Task2 - – Create a Weather Application based on API Data*/
+
+
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 30px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400;
+  color: aliceblue;
+  font-size: 10px;
+}
+
+select {
+  background:transparent;
+  height:32px;
+  border:1px solid #323333;
+  width:350px;
+  -webkit-appearance : none;
+  -moz-appearance : none;
+  background : none;
+}
+
+#selected {
+  text-align:center;
+}
+
+
+#weatherInfo {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+#weatherInfo h2 {
+  color: #323333;
+}
+#weatherInfo h2 span {
+  font-size:20px;
+}
+
+
+#weatherInfo img {
+  height:100%;
+  float:left;
+  margin-left:30px;
+  margin-top:10px;
+}
+
+#temp {
+  font-size:30px;
+  font-weight: 700;
+
+}
+
+#left, #right {
+  margin-top:30px;
+  font-size:14px;
+  font-weight: 400;
+}
+
+#left img, #right img {
+  width: 20px;
+  margin-top: 0px;
+  margin-right: 8px;
+}
+
+
+#left {
+  float:left;
+}
+
+#right {
+  float:right;
+  margin-right:80px;
+}
+
+#info p {
+  clear:both;
+  color: #e84e4f;
+  font-size:20px;
+  padding:10px 0px 10px 0px;
+  border-bottom: solid 2px rgba(255,255,255,0.1);
+  border-top: solid 2px rgba(255,255,255,0.1);
+}
